@@ -1,0 +1,30 @@
+@import './general';
+
+.main__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.main__table {
+	border-collapse: collapse;
+}
+
+.table__caption {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.table__heading,
+.table__data {
+	font-family: 'Arial';
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 10px;
+	min-width: fit-content;
+	border: 1px solid #000000;
+	text-align: center;
+}
